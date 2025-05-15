@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Apple Tech Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__logo">
+                <a href="/">Apple Tech Store</a>
+            </div>
+            <button class="nav__toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav__menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/catalog.html">Catalog</a></li>
+                <li><a href="/cart.html" class="cart-link active">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="cart-page">
+        <div class="cart-container">
+            <h1>Shopping Cart</h1>
+            <div class="cart-content">
+                <div class="cart-items">
+                    <!-- Cart items will be loaded dynamically -->
+                </div>
+                <div class="cart-summary">
+                    <h3>Order Summary</h3>
+                    <div class="cart-summary__row">
+                        <span>Subtotal</span>
+                        <span class="cart-total">$0.00</span>
+                    </div>
+                    <div class="cart-summary__row">
+                        <span>Shipping</span>
+                        <span>Free</span>
+                    </div>
+                    <div class="cart-summary__row">
+                        <div class="promo-code">
+                            <div class="promo-row">
+                                <input type="text" placeholder="Enter promo code" class="promo-input">
+                                <button class="btn btn--secondary apply-promo">Apply</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-summary__row cart-summary__total">
+                        <span>Total</span>
+                        <span class="cart-total">$0.00</span>
+                    </div>
+                    
+                    <div class="cart-promotions">
+                        <a href="#" class="promotion-link" data-popup="back-to-school">
+                            <i class="fas fa-graduation-cap"></i>
+                            Back to School Promotion
+                        </a>
+                        <a href="#" class="promotion-link" data-popup="trade-in">
+                            <i class="fas fa-sync-alt"></i>
+                            Trade In Your Device
+                        </a>
+                    </div>
+
+                    <button class="btn btn--primary checkout-btn" disabled>
+                        Proceed to Checkout
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__section">
+                <h3>About Us</h3>
+                <p>Your trusted source for Apple products</p>
+            </div>
+            <div class="footer__section">
+                <h3>Contact</h3>
+                <p>Email: info@appletechstore.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer__section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; 2024 Apple Tech Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
