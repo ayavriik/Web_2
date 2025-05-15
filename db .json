@@ -1,0 +1,113 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 15 Pro",
+      "description": "The most powerful iPhone ever with A17 Pro chip, titanium design, and advanced camera system.",
+      "price": 999.99,
+      "category": "phones",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692845702708",
+      "stock": 50,
+      "specs": {
+        "display": "6.1-inch Super Retina XDR",
+        "processor": "A17 Pro chip",
+        "storage": "128GB",
+        "camera": "48MP Main + 12MP Ultra Wide + 12MP Telephoto"
+      }
+    },
+    {
+      "id": "2",
+      "name": "MacBook Pro 14\"",
+      "description": "Supercharged by M3 Pro or M3 Max, MacBook Pro takes its power and speed further than ever.",
+      "price": 1999.99,
+      "category": "laptops",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-spacegray-select-202301?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1671304673202",
+      "stock": 30,
+      "specs": {
+        "display": "14.2-inch Liquid Retina XDR",
+        "processor": "M3 Pro chip",
+        "memory": "18GB unified memory",
+        "storage": "512GB SSD"
+      }
+    },
+    {
+      "id": "3",
+      "name": "iPad Pro 12.9\"",
+      "description": "Supercharged by M2, iPad Pro is the ultimate iPad experience with the most advanced display technology.",
+      "price": 1099.99,
+      "category": "tablets",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-12-select-wifi-spacegray-202104?wid=940&hei=1112&fmt=png-alpha&.v=1617126613000",
+      "stock": 25,
+      "specs": {
+        "display": "12.9-inch Liquid Retina XDR",
+        "processor": "M2 chip",
+        "storage": "128GB",
+        "camera": "12MP Wide + 10MP Ultra Wide"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Apple Watch Series 9",
+      "description": "The most advanced Apple Watch ever with a powerful new chip and innovative new features.",
+      "price": 399.99,
+      "category": "watches",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-card-40-ultra2-202309_GEO_US?wid=680&hei=528&fmt=p-jpg&qlt=95&.v=1693501866448",
+      "stock": 100,
+      "specs": {
+        "display": "Always-On Retina display",
+        "processor": "S9 SiP",
+        "storage": "32GB",
+        "battery": "Up to 18 hours"
+      }
+    },
+    {
+      "id": "5",
+      "name": "AirPods Pro 2nd Generation",
+      "description": "Active Noise Cancellation, Transparency mode, and Spatial Audio with dynamic head tracking.",
+      "price": 249.99,
+      "category": "audio",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1660803972361",
+      "stock": 75,
+      "specs": {
+        "battery": "Up to 6 hours",
+        "connectivity": "Bluetooth 5.3",
+        "features": "Active Noise Cancellation, Transparency mode",
+        "case": "MagSafe Charging Case"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Mac Studio",
+      "description": "Supercharged by M2 Max or M2 Ultra, Mac Studio is a powerhouse for professional workflows.",
+      "price": 1999.99,
+      "category": "desktops",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-studio-select-202206?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1653086293667",
+      "stock": 15,
+      "specs": {
+        "processor": "M2 Max chip",
+        "memory": "32GB unified memory",
+        "storage": "512GB SSD",
+        "ports": "4 Thunderbolt 4, 2 USB-A, HDMI, 10Gb Ethernet"
+      }
+    }
+  ],
+  "promotions": [
+    {
+      "id": "1",
+      "title": "Back to School",
+      "description": "Get AirPods with your Mac or iPad purchase",
+      "validUntil": "2024-09-30",
+      "discount": "Free AirPods",
+      "type": "back-to-school",
+      "promocode": "SCHOOL2024"
+    },
+    {
+      "id": "2",
+      "title": "Trade In",
+      "description": "Get credit toward your next purchase when you trade in your eligible device",
+      "validUntil": "2024-12-31",
+      "discount": "Up to $1000",
+      "type": "trade-in"
+    }
+  ]
+} 
